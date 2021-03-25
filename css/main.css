@@ -1,195 +1,64 @@
 /*Utility Class*/
-.hide
-{
+.hidden{
 	display: none;
 }
 
 /* General rules - scales images, videos to size of container */
-img, embed, object, video 
-{
+img, embed, object, video{
   max-width: 100%; 
 }
 
-html 
-{
+html{
   box-sizing: border-box; 
 }
 
-0
-
 /*General Rules for elements */
-body{
-	font-family: 'Lato', Helvetica, sans-serif;
-	background-color: #fff;
-}
-
-a{
-	text-decoration: none;
-	transition: all .1s linear;
-}
-
 .container{
 	margin: 0 auto;
 	max-width: 1200px;
 }
 
-/*Header and Nav */
+/*Header and Navigation and Socials */
+
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
 
 #mainHeader{
 	margin-left: 10px;
 	margin-right: 10px;
 }
 
+#mainLogo{
+	padding-left: 25px;
+}
+
 #mainNav{
 	text-align: right;
-}
-
-#burgerCon{
-	margin-top: 20px;
-	display: none;
-}
-
-#burgerCon.slideToggle{
-	display: block;
+	margin-right: 25px;
 }
 
 #mainNav button{
-	background: url(../img/burger.svg) center no-repeat;
-	border: 0px;
-	width: 20px;
-	height: 20px;
+	background: url(../img/hamburger.svg) center no-repeat;
 	transition: all .1s ease;
+	width: 25px;
+	height: 25px;
+	border: 0px;
 }
 
-#mainNav button.expanded{
-	transform: rotate(90deg);
+#mainNav a{
+	text-decoration: none;
+	color: #efefef;
 }
 
-#mainNav li a{
+#hamContainer{
+	margin-top: 15px;
+	display: none;
+
+}
+
+#hamContainer.slide{
 	display: block;
-	padding: 10px 0 10px 0;
-	text-align: center;
-	color: #8ea76d;  
-}
-
-#mainNav li{
-	border-bottom: 1px solid #efefef;
-}
-
-#mainNav li:first-child{
-	border-top: 1px solid #efefef;
-}
-
-#mainNav li:last-child{
-	margin-bottom: 10px;
-}
-
-#mainNav li a:hover{
-	background-color: #efefef;
-}
-
-.actionButton{
-	display: block;
-	background-color: #CDD36E;
-	width: 170px;
-	padding: 20px 5px 20px 5px;
-	color: #fff;
-	text-align: center;
-	border-radius: 10px;
-	margin: 20px auto 0 auto;
-	font-size: 15px;
-	transition: all .5s ease;
-}
-
-.actionButton:hover{
-	border-radius: 0px;
-	background-color: #C4C979;
-}
-
-#wollastonLogo{
-	max-width: 130px;
-	display: block;
-	margin: 20px auto 25px auto;
-}
-
-/* PANO AREA*/
-
-#pano{
-	height: 240px;
-	background-image: url(../img/golf-course-m.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	padding-top: 10px;
-	padding-left: 10px;;
-	padding-right: 10px;
-}
-
-/*image switching for retina screens*/
-@media screen and (min-resolution: 200dpi), 
-		screen and (min-resolution: 1.25dppx){
-
-	#pano{
-		background-image: url(../img/golf-course-m@2x.jpg);
-	}
-		}
-
-#pano h2{
-	font-size: 22px;
-	font-weight:900;
-	text-align: center;
-	color: #fff;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-#pano p{
-	font-size: 12px;
-	color: #fff;
-	line-height: 20px;
-	margin: 0 auto 30px auto;
-}
-
-#learnMore{
-	display: block;
-	width: 130px;
-	padding: 15px 0;
-	border: solid 1px #fff;
-	color: #fff;
-	text-align: center;
-	font-size: 15px;
-	margin: 0 auto;
-}
-
-#learnMore:hover{
-	background-color: rgba(76,97,88,.8);
-}
-
-#serviceCon{
-	background-color: #efefef;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-top: 10px;
-}
-
-#teeIcon{
-	max-width: 16px;
-	display: block;
-	margin: 0 auto;
-}
-
-#services header h2{
-	text-align: center;
-	margin-top: 10px;
-	font-weight: 700;
-	color: #707070;
-
-}
-
-#services header h2:after{
-	content:"";
-	display: block;
-	width: 70px;
-	border-bottom: 2px solid #819B4B;
-	margin: 10px auto 0 auto;
 }
