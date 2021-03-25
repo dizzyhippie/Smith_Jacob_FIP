@@ -12,11 +12,10 @@ let burgerMenu = document.querySelector("#hamContainer");
 
 function hamburgerClicked(){
 	burgerMenu.classList.toggle ("slide");
-	burgerMenu.classList.toggle ("clicked")
+	hamButton.classList.toggle ("clicked")
 }
 
-hamButton.addEventListener("click", hamburger)
-
+hamButton.addEventListener("click", hamburgerClicked)
 
 
 })();
