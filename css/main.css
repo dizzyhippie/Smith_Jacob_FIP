@@ -1,9 +1,8 @@
-/*Utility Class*/
+/* GLOBAL ELEMENTS */
 .hidden{
 	display: none;
 }
 
-/* General rules - scales images, videos to size of container */
 img, embed, object, video{
   max-width: 100%; 
 }
@@ -12,27 +11,25 @@ html{
   box-sizing: border-box; 
 }
 
-/*General Rules for elements */
 .container{
 	margin: 0 auto;
 	max-width: 1200px;
 }
 
-/*Header and Navigation and Socials */
+/*Header and Navigation*/
 
-header{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+#mainLogo{
+	margin: 0 auto;
+	display: block;
+}
+
+#hamburger{
+	border: none;
 }
 
 #mainHeader{
 	margin-left: 10px;
 	margin-right: 10px;
-}
-
-#mainLogo{
-	padding-left: 25px;
 }
 
 #mainNav{
@@ -43,8 +40,8 @@ header{
 #mainNav button{
 	background: url(../img/hamburger.svg) center no-repeat;
 	transition: all .1s ease;
-	width: 25px;
-	height: 25px;
+	width: 35px;
+	height: 35px;
 	border: 0px;
 }
 
@@ -57,13 +54,12 @@ header{
 	color: #efefef;
 }
 
-#mainNav li{
-	padding: 15px;
-}
-
 #mainNav li a{
+	font-family: sans-serif;
+	display: block;
 	color: #d21e2f;
-	padding: 5px;
+	padding: 10px 0 10px 0;
+	font-size: 18px;
 }
 
 #hamContainer{
@@ -73,4 +69,12 @@ header{
 
 #hamContainer.slide{
 	display: block;
+}
+
+header:after{
+	content:"";
+	display: block;
+	width: 280px;
+	border-bottom: 3px solid #d21e2f;
+	margin: 15px auto 0 auto;
 }
