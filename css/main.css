@@ -48,6 +48,10 @@ header{
 	border: 0px;
 }
 
+#mainNav button.clicked{
+	transform: rotate(90deg);
+}
+
 #mainNav a{
 	text-decoration: none;
 	color: #efefef;
