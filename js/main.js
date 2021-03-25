@@ -1,15 +1,18 @@
 (function(){
-	"use strict";	
-	console.log("fired");	
 
-	let button = document.querySelector("#button");
-	let burgerCon = document.querySelector("#burgerCon");
+"use strict";	
+console.log("fired");
 
-	function hamburgerMenu(){
-		burgerCon.classList.toggle ("slideToggle");
-		button.classList.toggle("expanded");
-	}
+// Selecting the Hamburger Menu Icon and the menu that appears	
 
-	button.addEventListener("click", hamburgerMenu);
+let hamButton = document.querySelector("#hamburger");
+let burgerMenu = document.querySelector("#hamContainer");
+
+function hamburgerClicked(){
+	burgerMenu.classList.toggle ("slide");
+	burgerMenu.classList.toggle ("")
+}
+
+
 
 })();
