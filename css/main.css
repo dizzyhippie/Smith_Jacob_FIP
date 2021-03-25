@@ -57,12 +57,20 @@ header{
 	color: #efefef;
 }
 
+#mainNav li{
+	padding: 15px;
+}
+
+#mainNav li a{
+	color: #d21e2f;
+	padding: 5px;
+}
+
 #hamContainer{
 	margin-top: 15px;
 	display: none;
-
 }
 
-#hamContainer.slideClicked{
+#hamContainer.slide{
 	display: block;
 }
