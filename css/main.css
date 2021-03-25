@@ -1,4 +1,4 @@
-/* GLOBAL ELEMENTS */
+/* GLOBAL SELECTORS */
 .hidden{
 	display: none;
 }
@@ -82,3 +82,113 @@ header:after{
 	border-bottom: 3px solid #d21e2f;
 	margin: 15px auto 0 auto;
 }
+
+/* Home Page Content */
+
+#heroSection{
+	margin-top: 20px;
+	padding-top: 50px;
+	background: url(../img/heroImage-m.png) center no-repeat;
+	height: 210px;
+
+}
+
+#hero-headline{
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size: 24px;
+	text-align: center;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 1.5px;
+	color: #fff;
+	background-color: #19191999;
+	max-width: 640px;
+}
+
+#hero-copy{
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	background-color: #19191999;
+	font-size: 14px;
+	line-height: 15px;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	max-width: 640px;
+}
+
+#mashup img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.mashupText{
+	width: 280px;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#ourProducts{
+	background-color: #223B62;
+	margin-top: 20px;
+	padding: 15px;
+}
+
+#ourProducts img{
+	display: block;
+	margin: 0 auto;
+}
+
+#ourProducts h2{
+	font-family: 'Staatliches', cursive;
+	font-size: 24px;
+	text-align: center;
+	color: #fff;
+	letter-spacing: 1.5px;
+}
+
+#ourProducts h3{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-top: 10px;
+}
+
+.products{
+	margin: 25px 0 25px 0;
+}
+
+#mobile-footer{
+	background-color: #DEDEDE;
+	margin-top: 20px;
+}
+
+#footerContent{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#return{
+	margin-top: 45px;
+	margin-right: 25px;
+	display: block;
+}
+
+#footerLogo{
+	max-width: 50%;
+	margin-left: 10px;
+}
+
+#footerNav{
+	display: none;
+}
+
