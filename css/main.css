@@ -130,6 +130,7 @@ header:after{
 .mashupText{
 	width: 280px;
 	text-align: center;
+	color: #A4A4A4;
 	margin: 0 auto;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -192,3 +193,18 @@ header:after{
 	display: none;
 }
 
+#footer_social ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 15px;
+}
+
+#footer_social img{
+	max-width: 50%;
+}
+
+.socialNav img{
+	display: block;
+	margin: 0 auto;
+}
