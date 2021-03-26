@@ -117,7 +117,7 @@ header:after{
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-bottom: 15px;
-	max-width: 640px;
+	max-width: 610px;
 }
 
 #mashup img{
@@ -207,4 +207,34 @@ header:after{
 .socialNav img{
 	display: block;
 	margin: 0 auto;
+}
+
+/* Minor Layout changes to Home Page at tablet size*/
+@media screen and (min-width: 460px){
+
+#products-cont{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.products{
+	margin: 10px;
+}
+
+#footer_social img{
+	justify-content: center;
+	max-width: 65%;
+}
+
+}
+
+@media screen and (min-width: 640px){
+
+	#mashup{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
 }
