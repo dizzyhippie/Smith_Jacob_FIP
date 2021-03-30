@@ -16,8 +16,7 @@ html{
 	max-width: 1200px;
 }
 
-/*Header and Navigation*/
-
+/*Header and Navigation */
 #mainLogo{
 	margin: 0 auto;
 	display: block;
@@ -47,10 +46,6 @@ html{
 
 #mainNav button.clicked{
 	transform: rotate(90deg);
-}
-
-#mainNav li a{
-
 }
 
 #mainNav a{
@@ -84,7 +79,6 @@ header:after{
 }
 
 /* Home Page Content */
-
 #heroSection{
 	margin-top: 20px;
 	padding-top: 50px;
@@ -209,7 +203,7 @@ header:after{
 	margin: 0 auto;
 }
 
-/* Minor Layout changes to Home Page at tablet size*/
+/* Minor Layout changes to Home Page at tablet size HOME */
 @media screen and (min-width: 460px){
 
 #products-cont{
@@ -230,11 +224,62 @@ header:after{
 
 }
 
+/* Layout Changes for Tablet HOME */
 @media screen and (min-width: 640px){
 
-	#mashup{
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-	}
+#mashup{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
+
+}
+
+/* Final Tablet Changes Home */
+@media screen and (min-width: 830px){
+
+#mashup-molson{
+	margin-left: 100px;
+}
+
+#mashup-goldbond{
+	margin-right: 100px;
+}
+
+}
+
+/* Desktop Size HOME */
+@media screen and (min-width: 1150px){
+
+#mainHeader{
+	display: flex;
+	flex-direction: row;
+}
+
+#hamburger{
+	display: none;
+}
+
+#hamContainer{
+	display: flex;
+	align-items: baseline;
+}
+
+#hamContainer ul{
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+	margin-right: 100px;
+}
+
+#hamContainer ul li{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+header:after{
+	display: none;
+}
+
+}
+
