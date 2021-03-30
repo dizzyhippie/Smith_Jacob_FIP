@@ -84,7 +84,10 @@ header:after{
 	padding-top: 50px;
 	background: url(../img/heroImage-m.png) center no-repeat;
 	height: 210px;
+}
 
+#hero-d{
+	display: none;
 }
 
 #hero-headline{
@@ -277,7 +280,47 @@ header:after{
 	padding-right: 10px;
 }
 
+.active-page{
+	text-decoration: underline;
+}
+
 header:after{
+	display: none;
+}
+
+#hero-d{
+	display: block;
+	margin: 0 auto;
+}
+
+#heroSection{
+	justify-content: center;
+	margin-top: 20px;
+	height: 100%
+}
+
+#hero-headline{
+	color: #d21e2f;
+	background-color: #fff;
+	margin-bottom: 5px;
+}
+
+#hero-copy{
+	
+	color: #000000;
+	background-color: #fff;
+}
+
+#goldbond-d, #molson-d{
+	display: flex;
+	justify-content: space-between;
+}
+
+#goldbond-m{
+	display: none;
+}
+
+#molson-m{
 	display: none;
 }
 
