@@ -396,7 +396,6 @@ header:after{
 #new-mobile, #before-mobile, #after-mobile{
 	display: block;
 	margin: 0 auto;
-	max-width: 600px;
 }
 
 #before, #after{
@@ -404,7 +403,7 @@ header:after{
 	margin-bottom: 25px;
 }
 
-#arrowBA {
+#arrowBA{
 	display: block;
 	margin: 30px auto 30px auto;
 	transform: rotate(180deg);
@@ -420,16 +419,45 @@ header:after{
 
 .befterText{
 	width: 250px;
-	margin: 0 auto;
+	margin: 10px auto 0 auto;
 	text-align: justify-all;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 15px;
+
 }
 
+#disclaimer{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #d21e2f;
+	margin: 0 auto 0 auto;
+	padding-top: 5px;
+	width: 275px;
+}
+
+/* Minor changes to befter text */
+@media screen and (min-width: 490px){.befterText, #disclaimer{width: 325px;}}
+
+/* Minor changes to About page */
 @media screen and (min-width: 590px){
+
+#new-mobile, #before-mobile, #after-mobile{display: flex;}
 
 #befterCont{
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
+	margin: 0 25px 0 25px;
+}
 
+#new-mobile, #before-mobile, #after-mobile{display: flex;}
+
+#arrowBA{
+	transform: rotate(90deg);
 }
 
 
