@@ -164,6 +164,10 @@ header:after{
 	margin: 25px 0 25px 0;
 }
 
+.productsButton{
+	display: none;
+}
+
 #mobile-footer{
 	background-color: #DEDEDE;
 	margin-top: 20px;
@@ -177,7 +181,7 @@ header:after{
 
 #return{
 	margin-top: 45px;
-	margin-right: 25px;
+	margin-right: 45px;
 	display: block;
 }
 
@@ -251,6 +255,28 @@ header:after{
 	margin-right: 15px;
 }
 
+.productsButton{
+	text-decoration: none;
+	width: 150px;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #fff;
+	letter-spacing: 0.5px;
+	padding: 10px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.productsButton:hover{
+	color: #D21E2F;
+	background-color: #fff;
+	border-radius: 25px;
+}
+
 }
 
 /* Desktop Size HOME */
@@ -274,16 +300,19 @@ header:after{
 	display: flex;
 	flex-direction: row;
 	margin-top: 50px;
-	margin-right: 100px;
+
 }
 
 #hamContainer ul li{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
 .active-page{
-	text-decoration: underline;
+	border-bottom: 1px solid #d21e2f;
+
 }
 
 header:after{
@@ -308,17 +337,23 @@ header:after{
 }
 
 #hero-copy{
-	
 	color: #000000;
 	background-color: #fff;
+}
+
+#footerLogo{
+	margin-left: 25px;
 }
 
 #footerNav{
 	display: flex;
 	margin-top: 100px;
+	margin-right: 25px;
 }
 
 #footerNav ul li{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
 	display: inline-block;
 	padding: 0 10px 0 10px;
 
@@ -345,3 +380,58 @@ header:after{
 
 }
 
+/* Contact Page Content */
+#contact{
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+	background: url('../img/contact_background.png') no-repeat;
+	background-position: center;
+	width: 100%;'
+	height: 100%;
+	background-color: #F2F2F2;
+}
+
+#contactTitle{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	margin-bottom: 15px;
+	color: #d01f2f;
+}
+
+#contactForm input{
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 200px;
+	border: 1px solid #F2F2F2;
+}
+
+#message{
+	width: 200px;
+	height: 75px;
+}
+
+#submit{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 150px;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	color: #d01f2f;
+	border: 1px solid;
+	border-radius: 25px;
+}
+
+#submit:hover{
+	background-color: #fff;
+}
