@@ -380,6 +380,76 @@ header:after{
 
 }
 
+/* About Page Content */
+#newLookText{
+	display: none;
+}
+
+#newLook h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	margin: 20px 0 10px 0;
+}
+
+#new-mobile, #before-mobile, #after-mobile{
+	display: block;
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+#before, #after{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#arrowBA {
+	display: block;
+	margin: 30px auto 30px auto;
+	transform: rotate(180deg);
+}
+
+.befter{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.befterText{
+	width: 250px;
+	margin: 0 auto;
+	text-align: justify-all;
+}
+
+@media screen and (min-width: 590px){
+
+#befterCont{
+	display: flex;
+	flex-direction: row;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Contact Page Content */
 #contact{
 	margin: 0 auto;
@@ -388,7 +458,7 @@ header:after{
 	padding-bottom: 25px;
 	background: url('../img/contact_background.png') no-repeat;
 	background-position: center;
-	width: 100%;'
+	width: 100%;
 	height: 100%;
 	background-color: #F2F2F2;
 }
