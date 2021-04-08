@@ -386,10 +386,11 @@ header:after{
 }
 
 #newLook h2{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Staatliches', cursive;
+	text-align: center;
+	letter-spacing: 1.5px;
 	font-weight: bold;
 	font-size: 24px;
-	text-align: center;
 	margin: 20px 0 10px 0;
 }
 
@@ -460,23 +461,25 @@ header:after{
 	transform: rotate(90deg);
 }
 
+}
 
+@media screen and (min-width: 1064px){
+
+.befterText, #disclaimer{width: 450px;}
+
+#newLookText{
+	display: block;
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 /* Contact Page Content */
 #contact{
