@@ -3,7 +3,7 @@
 	display: none;
 }
 
-img, embed, object, video{
+img, embed, object, video, picture{
   max-width: 100%; 
 }
 
@@ -82,7 +82,7 @@ header:after{
 #heroSection{
 	margin-top: 20px;
 	padding-top: 50px;
-	background: url(../img/heroImage-m.png) center no-repeat;
+	background: url(../img/hero-m.png) center no-repeat;
 	height: 210px;
 }
 
@@ -213,6 +213,11 @@ header:after{
 /* Minor Layout changes to Home Page at tablet size HOME */
 @media screen and (min-width: 460px){
 
+#heroSection{
+	background: url(../img/hero-t.png) center no-repeat;
+	height: 210px;
+}
+
 #products-cont{
 	display: flex;
 	flex-wrap: wrap;
@@ -244,6 +249,18 @@ header:after{
 
 /* Final Tablet Changes Home */
 @media screen and (min-width: 830px){
+
+#hero-d{
+	display: block;
+	margin-bottom: 20px;
+}
+
+#heroSection{
+	margin-top: 20px;
+	padding-top: 50px;
+	height: 100%;
+	background-image: none;
+}
 
 #mashup img{
 	display: flex;
@@ -324,7 +341,6 @@ header:after{
 }
 
 #heroSection{
-	justify-content: center;
 	margin-top: 20px;
 	height: 100%
 }
@@ -332,6 +348,7 @@ header:after{
 #hero-headline{
 	color: #d21e2f;
 	background-color: #fff;
+	margin-top: 35px;
 	margin-bottom: 5px;
 }
 
@@ -522,6 +539,7 @@ header:after{
 	padding-top: 10px;
 }
 
+/* Changes to picture layout for tablet */
 @media screen and (min-width: 786px){
 
 .ads_row{
@@ -568,9 +586,8 @@ header:after{
 	width: 350px;
 }
 }
-
-@media screen and (min-width: 950px){#promoInfo{margin-right: 175px;}
-}
+/* Minor tweaks for promo text*/
+@media screen and (min-width: 950px){#promoInfo{margin-right: 175px;}}
 
 
 
@@ -704,6 +721,4 @@ header:after{
 }
 
 /* Contact Page Changes for Desktop */
-@media screen and (min-width: 1000px){
-
-#contact{justify-content: space-around; max-width: 1200px;}}
+@media screen and (min-width: 1000px){#contact{justify-content: space-around; max-width: 1200px;}}
