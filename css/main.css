@@ -440,7 +440,7 @@ header:after{
 	width: 275px;
 }
 
-/* Minor changes to befter text */
+/* Minor changes to about page befter text */
 @media screen and (min-width: 490px){.befterText, #disclaimer{width: 325px;}}
 
 /* Minor changes to About page */
@@ -463,6 +463,7 @@ header:after{
 
 }
 
+/*About page desktop changes */
 @media screen and (min-width: 1064px){
 
 .befterText, #disclaimer{width: 450px;}
@@ -489,8 +490,7 @@ header:after{
 	padding-bottom: 25px;
 	background: url('../img/contact_background.png') no-repeat;
 	background-position: center;
-	width: 100%;
-	height: 100%;
+	
 	background-color: #F2F2F2;
 }
 
