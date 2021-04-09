@@ -312,7 +312,6 @@ header:after{
 
 .active-page{
 	border-bottom: 1px solid #d21e2f;
-
 }
 
 header:after{
@@ -356,7 +355,6 @@ header:after{
 	font-weight: bold;
 	display: inline-block;
 	padding: 0 10px 0 10px;
-
 }
 
 #footerNav ul li a{
@@ -461,7 +459,7 @@ header:after{
 }
 }
 
-/*About page desktop changes */
+/*About page desktop changes*/
 @media screen and (min-width: 1064px){
 
 .befterText, #disclaimer{width: 450px;}
@@ -481,7 +479,16 @@ header:after{
 /* Advertisement Page Content */
 .pics{
 	display: block;
-	margin: 20px auto;
+	margin: 10px auto 20px auto;
+
+}
+
+.ads-cap{
+	text-align: center;
+	font-family: 'Staatliches', cursive;
+	font-size: 22px;
+	margin-top: 10px;
+	letter-spacing: 1px;
 
 }
 
@@ -490,7 +497,7 @@ header:after{
 	text-align: center;
 	font-weight: bolder;
 	font-size: 24px;
-	margin: 20px 0 10px 0;
+	margin: 20px 0 20px 0;
 }
 
 #tingle_text{
@@ -510,12 +517,66 @@ header:after{
 	font-size: 24px;
 	background-color: #404040;
 	color: #fff;
-	display: block;
 	width: 305px;
-	text-align: center;
 	margin: 0 auto;
 	padding-top: 10px;
 }
+
+@media screen and (min-width: 786px){
+
+.ads_row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	max-width: 1250px;
+	margin: 0 auto;
+}
+
+.ads-cap{
+	display: none;
+}
+
+.pics{
+	display: flex;
+	justify-content: space-around;
+}
+
+#promo{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	max-width: 1250px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#promo picture{
+	max-width: 1250px;
+	margin: 0 auto;
+}
+
+#promoInfo{
+	margin: auto 50px auto 20px;
+	max-width: 1250px;
+}
+
+#tingle_head{
+	width: 380px;
+}
+
+#tingle_text{
+	width: 350px;
+}
+}
+
+@media screen and (min-width: 950px){#promoInfo{margin-right: 175px;}
+}
+
+
+
+
+
+
 
 
 
@@ -611,7 +672,7 @@ header:after{
 }
 
 /* Contact Page changes for tablet */
-@media screen and (min-width: 640px){
+@media screen and (min-width: 641px){
 
 #contact{
 	display: flex;
@@ -645,6 +706,4 @@ header:after{
 /* Contact Page Changes for Desktop */
 @media screen and (min-width: 1000px){
 
-#contact{justify-content: space-around; max-width: 1200px;}
-
-}
+#contact{justify-content: space-around; max-width: 1200px;}}
