@@ -325,6 +325,9 @@ header:after{
 	padding-right: 10px;
 }
 
+#hamContainer ul li a{
+	font-size: 20px;
+}
 .active-page{
 	border-bottom: 1px solid #d21e2f;
 }
@@ -456,23 +459,23 @@ header:after{
 	width: 275px;
 }
 
-#videoCon{
-	display: block;
-	margin: 0 auto;
+#promoVideo{
+	display: none;
 }
 
 /* Minor changes to about page befter text */
 @media screen and (min-width: 490px){.befterText, #disclaimer{width: 325px;}}
 
 /* Minor changes to About page */
-@media screen and (min-width: 590px){
+@media screen and (min-width: 810px){
 
 #new-mobile, #before-mobile, #after-mobile{display: flex;}
 
 #befterCont{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
 	margin: 0 25px 0 25px;
 }
 
@@ -481,7 +484,19 @@ header:after{
 #arrowBA{
 	transform: rotate(90deg);
 }
+
+#promoVideo{
+	display: block;
 }
+
+#videoCon{
+	display: block;
+	margin: 0 auto;
+}
+
+}
+
+
 
 /*About page desktop changes*/
 @media screen and (min-width: 1064px){
@@ -552,7 +567,7 @@ header:after{
 	background-color: #00000090;
 	margin-bottom: 10px;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .display-button{
@@ -608,6 +623,23 @@ header:after{
 	justify-content: space-around;
 	flex-direction: row;
 	flex-wrap: wrap;
+}
+}
+
+@media screen and (min-width: 750px){
+
+#newLabel{
+	width: 100%;
+
+}
+
+#newLabel h3{
+	width: 420px;
+}
+
+#newLabel p{
+	width: 400px;
+
 }
 }
 
