@@ -377,7 +377,6 @@ header:after{
 .socialNav ul li{
 	padding: 0 10px 0 10px;
 }
-
 }
 
 /* About Page Content */
@@ -460,7 +459,6 @@ header:after{
 #arrowBA{
 	transform: rotate(90deg);
 }
-
 }
 
 /*About page desktop changes */
@@ -477,29 +475,30 @@ header:after{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	font-weight: normal;
-
 }
-
 }
 
 /* Contact Page Content */
 #contact{
 	margin: 0 auto;
 	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-bottom: 200px;
 	padding-bottom: 25px;
 	background: url('../img/contact_background.png') no-repeat;
 	background-position: center;
-	background-color: #F2F2F2;
 }
 
 #contactTitle{
 	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
 	font-weight: bold;
 	text-align: center;
-	padding-top: 25px;
 	margin-bottom: 15px;
 	color: #d01f2f;
+}
+
+#contactForm{
+	padding-top: 20px;
 }
 
 #contactForm input{
@@ -534,4 +533,73 @@ header:after{
 
 #submit:hover{
 	background-color: #fff;
+}
+
+#contactInfo{
+	margin-top: 25px;
+}
+
+#info{
+	width: 250px;
+	margin: 0 auto;
+}
+
+#contactInfo ul{
+	margin-bottom: 35px;
+}
+
+#contactInfo ul li{
+ margin: 10px 0 10px 0;
+ text-align: center;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: normal;
+ color: #d01f2f;
+ cursor: pointer;
+}
+
+#infoHead{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+
+/* Contact Page changes for tablet */
+@media screen and (min-width: 640px){
+
+#contact{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#contactInfo{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 20px;
+}
+
+#contactForm{
+	margin-right: 20px;
+}
+
+#contactTitle{
+	font-size: 24px;
+}
+
+#contactForm input{
+	width: 300px;
+}
+
+#message{
+	height: 150px;
+}
+}
+
+/* Contact Page Changes for Desktop */
+@media screen and (min-width: 1000px){
+
+#contact{justify-content: space-around; max-width: 1200px;}
+
 }
