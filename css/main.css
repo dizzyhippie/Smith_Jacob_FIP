@@ -432,6 +432,10 @@ header:after{
 	margin-bottom: 15px;
 }
 
+#befterCont{
+}
+
+
 .befterText{
 	width: 250px;
 	margin: 10px auto 0 auto;
@@ -452,6 +456,11 @@ header:after{
 	margin: 0 auto 0 auto;
 	padding-top: 5px;
 	width: 275px;
+}
+
+#videoCon{
+	display: block;
+	margin: 0 auto;
 }
 
 /* Minor changes to about page befter text */
