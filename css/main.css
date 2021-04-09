@@ -478,6 +478,51 @@ header:after{
 }
 }
 
+/* Advertisement Page Content */
+.pics{
+	display: block;
+	margin: 20px auto;
+
+}
+
+#socialHeader{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 24px;
+	margin: 20px 0 10px 0;
+}
+
+#tingle_text{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	width: 275px;
+	margin: 0 auto;
+	padding: 15px;
+	color: #fff;
+	background-color: #404040;
+}
+
+#tingle_head{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 24px;
+	background-color: #404040;
+	color: #fff;
+	display: block;
+	width: 305px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+
+
+
+
+
+
 /* Contact Page Content */
 #contact{
 	margin: 0 auto;
