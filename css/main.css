@@ -212,7 +212,6 @@ header:after{
 
 /* Minor Layout changes to Home Page at tablet size HOME */
 @media screen and (min-width: 460px){
-
 #heroSection{
 	background: url(../img/hero-t.png) center no-repeat;
 	height: 210px;
@@ -230,26 +229,25 @@ header:after{
 }
 
 #footer_social img{
-	justify-content: center;
-	max-width: 65%;
+	max-width: 50%;
 }
 
+#footer_social ul{
+	justify-content: flex-end;
+}
 }
 
 /* Layout Changes for Tablet HOME */
 @media screen and (min-width: 640px){
-
 #mashup{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 }
-
 }
 
 /* Final Tablet Changes Home */
 @media screen and (min-width: 830px){
-
 #hero-d{
 	display: block;
 	margin-bottom: 20px;
@@ -358,6 +356,10 @@ header:after{
 	background-color: #fff;
 }
 
+.mashupText{
+	width: 375px;
+}
+
 #footerLogo{
 	margin-left: 25px;
 }
@@ -387,7 +389,7 @@ header:after{
 .socialNav{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: flex-end;
 }
 
 .socialNav ul li{
@@ -436,16 +438,14 @@ header:after{
 #befterCont{
 }
 
-
 .befterText{
 	width: 250px;
 	margin: 10px auto 0 auto;
-	text-align: justify-all;
+	text-align: justify;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
-	font-size: 14px;
-	line-height: 15px;
-
+	font-size: 16px;
+	line-height: 18px;
 }
 
 #disclaimer{
@@ -493,10 +493,7 @@ header:after{
 	display: block;
 	margin: 0 auto;
 }
-
 }
-
-
 
 /*About page desktop changes*/
 @media screen and (min-width: 1064px){
@@ -505,23 +502,18 @@ header:after{
 
 #newLookText{
 	display: block;
-	width: 500px;
+	width: 550px;
 	text-align: center;
+	line-height: 18px;
 	margin: 0 auto;
 	margin-bottom: 25px;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: normal;
 }
 }
 
-
-
-
-
-
 /* Products Page Content */
-
 .productHead{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 24px;
@@ -590,23 +582,26 @@ header:after{
 	margin: 0 auto;
 }
 
+.featureRow img{
+	width: 25%;
+}
+
 .productRow h3{
 	text-align: center;
 	margin: 10px 0 10px 0;
 	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
 	font-size: 18px;
 	color: #fff;
 }
 
 .featureRow h3{
 	text-align: center;
-	margin: 10px 0 10px 0;
+	margin: 15px 0 40px 0;
 	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
 	font-size: 18px;
 	color: #000;
-}
-
-#featureCon img{
 }
 
 @media screen and (min-width: 510px){
@@ -624,6 +619,14 @@ header:after{
 	flex-direction: row;
 	flex-wrap: wrap;
 }
+
+.featureRow img{
+	width: 65%;
+}
+
+.featureRow{
+	padding-top: 40px;
+}
 }
 
 @media screen and (min-width: 750px){
@@ -639,26 +642,8 @@ header:after{
 
 #newLabel p{
 	width: 400px;
-
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Advertisement Page Content */
 .pics{
@@ -673,7 +658,6 @@ header:after{
 	font-size: 22px;
 	margin-top: 10px;
 	letter-spacing: 1px;
-
 }
 
 #socialHeader{
@@ -741,32 +725,21 @@ header:after{
 }
 
 #promoInfo{
-	margin: auto 50px auto 20px;
+	margin: auto 10px auto 20px;
 	max-width: 1250px;
 }
 
 #tingle_head{
-	width: 380px;
+	width: 390px;
 }
 
 #tingle_text{
-	width: 350px;
+	width: 360px;
+	line-height: 18px;
 }
 }
 /* Minor tweaks for promo text*/
-@media screen and (min-width: 950px){#promoInfo{margin-right: 175px;}}
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (min-width: 950px){#promoInfo{margin-right: 95px;}}
 
 /* Contact Page Content */
 #contact{
@@ -842,14 +815,14 @@ header:after{
  margin: 10px 0 10px 0;
  text-align: center;
  font-family: 'Montserrat', sans-serif;
- font-weight: normal;
+ font-weight: bold;
  color: #d01f2f;
  cursor: pointer;
 }
 
 #infoHead{
 	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
+	font-weight: bolder;
 	text-align: center;
 	margin-bottom: 5px;
 	font-size: 20px;
@@ -888,4 +861,4 @@ header:after{
 }
 
 /* Contact Page Changes for Desktop */
-@media screen and (min-width: 1000px){#contact{justify-content: space-around; max-width: 1200px;}}
+@media screen and (min-width: 1000px){#contact{justify-content: center; max-width: 1200px;}}
