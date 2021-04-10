@@ -35,30 +35,29 @@ function hamburgerClicked(){
 	hamButton.classList.toggle ("clicked");
 }
 
-function hopClick(event){
+function hopClick(){
 	hopInfo.textContent = featureInfo[0];
 }
 
-function kegClick(event){
+function kegClick(){
 	kegInfo.textContent = featureInfo[1];
 }
 
-function pintClick(event){
+function pintClick(){
 	pintInfo.textContent = featureInfo[2];
 }
 
-function stepOne(event){
+function stepOne(){
 	step1.textContent = callouts[0];
 }
 
-function stepTwo(event){
+function stepTwo(){
 	step2.textContent = callouts[1];
 }
 
-function stepThree(event){
+function stepThree(){
 	step3.textContent = callouts[2];
 }
-
 
 //Event Listeners
 hamButton.addEventListener("click", hamburgerClicked);
