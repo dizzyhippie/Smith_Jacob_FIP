@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
+    <!-- VALIDATED -->
     <h1 class="hidden">Products Page</h1>
     <div class="container">
       <header id="mainHeader">
@@ -48,36 +49,47 @@
           <h3>Molson Ultra</h3>
           <img src="img/molson_ultra.png" alt="molson ultra">
         </section> 
-     <a href="#" class="display-button">Read More</a>  
      </section>
      <section id="newLabel">
       <h3>New Label | Same Beer</h3>
       <p>Molson has always strived to use ingredients that reflect our Canadian pride, like select Prairie barley and Canadian water. In 2018, we started using select homegrown hops from Chilliwack.</p>
      </section>
-
-
-
+     <section id="destination">
+      <h2 class="hidden">Destination Section</h2>
+     <!--background Image !-->
+      <section  id="callouts">
+        <h2 class="hidden">Callout Buttons</h2>
+        <img src="img/step1.png" id="num1" data-call="0" alt="steps">
+        <img src="img/step2.png" id="num2" data-call="1" alt="steps">
+        <img src="img/step3.png" id="num3" data-call="2" alt="steps">
+      </section>
+      <section id="callText"> 
+        <h2 class="hidden">Callout Text</h2>
+        <p id="step1" data-call="0">STEP 1</p>
+        <p id="step2" data-call="1">STEP 2</p>
+        <p id="step3" data-call="2">STEP 3</p>
+      </section>
+     </section>
      <h2 class="productHead">Product Features</h2>
      <section id="featureCon">
       <h2 class="hidden">New Features</h2>
         <section class="featureRow">
           <img src="img/hop.svg" alt="hops" id="hops">
           <h3>Hops</h3>
+          <p id="hopText" data-swap="0"></p>
         </section>
         <section class="featureRow">
           <img src="img/keg.svg" alt="keg" id="keg">
           <h3>The Party</h3>
+          <p id="kegText" data-swap="1"></p>
         </section>
         <section class="featureRow">
           <img src="img/pint.svg" alt="pint" id="pint">
           <h3>The Beer</h3>
+          <p id="pintText" data-swap="2"></p>
         </section>   
      </section>
-
-
-
-
-
+       <h3 id="clickInfo">Click the Icons to Learn More</h3>
      <footer id="mobile-footer">
         <h1 class="hidden">Footer</h1>
         <section id="footerContent">
